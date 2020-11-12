@@ -77,7 +77,8 @@ Vagrant.configure("2") do |config|
     apt-get update
     apt-get install -y nodejs yarn
     echo 'PATH=/vagrant:`echo $PATH`' >> /home/vagrant/.profile
-    cd /vagrant
+    yarn global add @angular/cli@~8.3.4
+    cd /vagrant/a8example
     yarn 
   SHELL
 end
