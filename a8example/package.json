@@ -1,0 +1,29 @@
+{
+  "name": "a8example",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve --live-reload --host 0.0.0.0 --poll=2000",
+    "build": "ng build"
+  },
+  "private": true,
+  "browser": {
+    "fs": false,
+    "path": false
+  },
+  "dependencies": {
+    "@angular/common": "~8.2.5",
+    "@angular/compiler": "~8.2.5",
+    "@angular/core": "~8.2.5",
+    "@angular/platform-browser": "^8.2.6",
+    "@angular/platform-browser-dynamic": "~8.2.5",
+    "url-exist": "^2.0.2",
+    "zone.js": "~0.9.1"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.803.4",
+    "@angular/cli": "~8.3.4",
+    "@angular/compiler-cli": "~8.2.5",
+    "typescript": "3.5.3"
+  }
+}
